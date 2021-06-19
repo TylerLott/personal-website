@@ -31,7 +31,6 @@ const Overview = ({apiPath}) => {
                 playsinline
                 src="videos/video.mp4"
                 type="video/mp4"
-                class="${props.className}"
               />,
             ` }} />
           </OverviewBg>
