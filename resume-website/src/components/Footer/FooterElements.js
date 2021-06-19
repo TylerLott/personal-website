@@ -35,10 +35,10 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex;
   margin: 16px;
-  text-align: left;
-  width: 160px;
+  text-align: center;
+  width: 500px;
   box-sizing: border-box;
   color: #fff;
 
@@ -50,18 +50,34 @@ export const FooterLinkItems = styled.div`
 `
 
 export const FooterLinkTitle = styled.h1`
-  font-size: 14px;
-  margin-bottom: 16px;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  color: #EA5D5F;
+  font-weight: 200;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
 `
 
-export const FooterLink = styled(LinkR)`
+export const FooterLinkReact = styled(LinkR)`
   color: #fff;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  font-size: 14px;
+  margin-bottom: 1rem;
+  font-size: 24px;
 
   &:hover {
-    color: #01bf71;
+    color: #EA5D5F;
+    transition: 0.3s ease-out;
+  }
+`
+
+export const FooterLink = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 18px;
+
+  &:hover {
+    color: #EA5D5F;
     transition: 0.3s ease-out;
   }
 `

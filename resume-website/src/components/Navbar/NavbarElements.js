@@ -40,6 +40,13 @@ export const NavLogo = styled( LinkR )`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  letter-spacing: 0.2rem;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #EA5D5F;
+    text-decoration: none;
+  }
 `
 
 export const MobileIcon = styled.div`
@@ -63,6 +70,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -22px;
+  margin-bottom: 0;
 
   @media screen and (max-width: 1000px) {
     display: none;
@@ -85,6 +93,12 @@ export const NavLinks = styled(LinkS)`
   &.active {
     border-bottom: 3px solid #fff;
   }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #EA5D5F;
+    text-decoration: none;
+  }
 `
 
 export const NavBtn = styled.nav`
@@ -96,8 +110,29 @@ export const NavBtn = styled.nav`
   }
 `
 
+// For use if using react router - if I make a dedicated contact page
+// export const NavBtnLink = styled(LinkR)`
+//   border-radius: 50px;
+//   background: #EA5D5F;
+//   white-space: nowrap;
+//   padding: 10px 22px;
+//   color: #010606;
+//   font-size: 16px;
+//   font-weight: 550;
+//   outline: none;
+//   border: none;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+//   text-decoration: none;
 
-export const NavBtnLink = styled(LinkR)`
+//   &:hover {
+//     transition: all 0.2s ease-in-out;
+//     background: #fff;
+//     color: #010606;
+//   }
+// `
+
+export const NavBtnLink = styled.a`
   border-radius: 50px;
   background: #EA5D5F;
   white-space: nowrap;
@@ -115,5 +150,6 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+    text-decoration: none;
   }
 `

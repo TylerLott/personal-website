@@ -53,8 +53,18 @@ let resumeData = {
             type: "skills",
             skillName: "Python",
             title: "Python",
-            description: "I've used Python",
+            description: "I've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used PythonI've used Python",
             image: 'none',
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             alt: 'background',
             icon: "",
         },
@@ -62,62 +72,188 @@ let resumeData = {
             id: 2,
             type: "skills",
             skillName: "Java",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
+            alt: 'background',
             icon: "",
         },
         {
             id: 3,
             type: "skills",
             skillName: "JavaScript",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 4,
             type: "skills",
             skillName: "ANSYS",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 5,
             type: "skills",
             skillName: "SolidWorks",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 6,
             type: "skills",
             skillName: "AutoCAD",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 7,
             type: "skills",
             skillName: "NX & TeamCenter",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 8,
             type: "skills",
             skillName: "Tableau",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 9,
             type: "skills",
             skillName: "Microsoft Excel",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 10,
             type: "skills",
             skillName: "Visual Basic",
+            title: "Python",
+            description: "I've used Python",
+            image: 'none',
+            alt: 'background',
             icon: "",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
     ],
     education: [
         {
             id: 1,
             type: "education",
-            organization: "Utah State University",
+            title: "Utah State University",
             field: "Mechanical Engineering",
             startMonth: "Aug",
             startYear: "2017",
@@ -125,14 +261,12 @@ let resumeData = {
             endYear: "2021",
             bullets: [
                 {
-                    id: 1,
-                    type: "bullet",
-                    description: "Minor in Computer Science"
+                    id: "1",
+                    info: "test1"
                 },
                 {
-                    id: 2,
-                    type: "bullet",
-                    description: "Minor in Chemistry"
+                    id: "2",
+                    info: "test2"
                 }
             ],
             description: "graduated from here"
@@ -140,13 +274,23 @@ let resumeData = {
         {
             id: 2,
             type: "education",
-            organization: "Brigham Young University",
+            title: "Brigham Young University",
             field: "Undergraduate",
             startMonth: "Aug",
             startYear: "2016",
             endMonth: "Apr",
             endYear: "2017",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
+            image: "../../images/UtahState.jpg",
             description: "First year of college."
         }
     ],
@@ -161,7 +305,16 @@ let resumeData = {
             startYear: "2021",
             endMonth: "Current",
             endYear: "Current",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "First job with degree"
         },
         {
@@ -174,7 +327,16 @@ let resumeData = {
             startYear: "2020",
             endMonth: "Apr",
             endYear: "2021",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "Internship"
         },
         {
@@ -187,7 +349,16 @@ let resumeData = {
             startYear: "2019",
             endMonth: "Apr",
             endYear: "2021",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "Machine Learning and fluids research"
         },
         {
@@ -200,7 +371,16 @@ let resumeData = {
             startYear: "2018",
             endMonth: "Apr",
             endYear: "2020",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "TA job at USU"
         },
         {
@@ -213,7 +393,16 @@ let resumeData = {
             startYear: "2018",
             endMonth: "Oct",
             endYear: "2019",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "Management at Walmart"
         },
         {
@@ -226,7 +415,16 @@ let resumeData = {
             startYear: "2016",
             endMonth: "May",
             endYear: "2017",
-            bullets: [],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
             description: "Physics teaching assistant as freshman"
         },
     ],
@@ -234,74 +432,170 @@ let resumeData = {
         {
             id: 1,
             type: "projects",
-            endYear: "2021",
-            name: "L3Harris Self Leveling Antenna Platform",
+            title: "L3Harris Self Leveling Antenna Platform",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 2,
             type: "projects",
-            endYear: "2021",
-            name: "Off Grid Tiny Home",
+            title: "Off Grid Tiny Home",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2018",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 3,
             type: "project",
-            endYear: "2021",
-            name: "Projectile Impact on Thin Plate",
+            title: "Projectile Impact on Thin Plate",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 4,
             type: "project",
-            endYear: "2021",
-            name: "2020 Presidential Campaign Data Pipeline and Analysis",
+            title: "2020 Presidential Campaign Data Pipeline and Analysis",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 5,
             type: "Project",
-            endYear: "2021",
-            name: "Mohr's Circle Generator and 3D Statics Solver",
+            title: "Mohr's Circle Generator and 3D Statics Solver",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 6,
             type: "Project",
-            endYear: "2021",
-            name: "Fiber Reinforced Composite Strength Prediction",
+            title: "Fiber Reinforced Composite Strength Prediction",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 7,
             type: "Project",
-            endYear: "2021",
-            name: "USGS Salt Water Flow Prediction",
+            title: "USGS Salt Water Flow Prediction",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 8,
             type: "Project",
-            endYear: "2021",
-            name: "Distributed 2D Transient Heat Transfer Solver using Finite Element Methods",
+            title: "Distributed 2D Transient Heat Transfer Solver using Finite Element Methods",
             imgurl: "",
             description: "",
-            bullets: []
+            startMonth: "Dec",
+            startYear: "2016",
+            endMonth: "May",
+            endYear: "2017",
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
     ],
     publications: [
@@ -329,38 +623,108 @@ let resumeData = {
                     lastName: "Dutta"
                 },
             ],
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         }
     ],
     achievements: [
         {
            id: 1,
            type: "achievements",
-           achievement: "Member of USU SAE Mini Baja Team 2020", 
+           title: "Member of USU SAE Mini Baja Team 2020",
+           bullets: [
+            {
+                id: "1",
+                info: "test1"
+            },
+            {
+                id: "2",
+                info: "test2"
+            }
+        ],
         },
         {
             id: 2,
             type: "achievements",
-            achievement: "2021 Outstanding Undergraduate Researcher Honorable Mention", 
+            title: "2021 Outstanding Undergraduate Researcher Honorable Mention", 
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 3,
             type: "achievements",
-            achievement: "Member of Phi Eta Sigma Honors Society", 
+            title: "Member of Phi Eta Sigma Honors Society", 
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 4,
             type: "achievements",
-            achievement: "USU Engineering Undergraduate Research Scholar", 
+            title: "USU Engineering Undergraduate Research Scholar", 
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 5,
             type: "achievements",
-            achievement: "USU College of Engineering Dean's List", 
+            title: "USU College of Engineering Dean's List", 
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
         {
             id: 6,
             type: "achievements",
-            achievement: "US Secret Security Clearance", 
+            title: "US Secret Security Clearance", 
+            bullets: [
+                {
+                    id: "1",
+                    info: "test1"
+                },
+                {
+                    id: "2",
+                    info: "test2"
+                }
+            ],
         },
     ]
 };

@@ -1,0 +1,90 @@
+.row {
+  width: 100%;
+  max-width: 1400px;
+  padding-top: 4rem;
+  overflow: hidden;
+}
+
+.nav-col.col {
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-col.col{
+    max-width: 40%;
+  }
+  .row {
+    width: 110%;
+    display: block;
+  }
+}
+
+.flex-column {
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: #EA5D5F;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  text-transform: uppercase;
+}
+
+.tab-container {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: #EA5D5F;
+  color: #000;
+}
+
+.tab-pane {
+  align-items: center;
+}
+
+.tab-pane > h1 {
+  text-align: center;
+  font-size: clamp(1rem, 4vw, 3rem);
+  padding-top: 20px;
+}
+
+.tab-pane > p {
+  text-align: left;
+  font-size: clamp(0.5rem, 2vw, 1rem);
+  margin: 20px;
+}
+
+.tab-pane > ul {
+  text-align: left;
+  margin: 40px;
+  font-size: clamp(0.5rem, 2vw, 1rem);
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .tab-pane > p {
+    margin: 5px;
+  }
+  .tab-pane > ul {
+    margin: 5px;
+    padding-left: 10px;
+  }
+  .nav-item {
+    padding: 0;
+  }
+}
+
+
+
+
+

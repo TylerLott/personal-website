@@ -8,6 +8,28 @@ export const CarouselSection = styled.section`
   overflow: hidden;
 `
 
+export const CarouselTitleWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 5;
+`
+
+export const CarouselTitle = styled.h1`
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  color: #000;
+  font-size: clamp(1.5rem, 6vw, 4rem);
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  
+`
+
 export const CarouselWrapper = styled.div`
   width: 100%;
   height: 100%;
@@ -31,8 +53,9 @@ export const CarouselSlider = styled.div`
   width: 100%;
   height: calc(100vh - 80px);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: top;
+  justify-content: left;
+  padding: 8rem 10vw;
 
   &::before {
     content: '';
@@ -55,6 +78,10 @@ export const SlideImage = styled.img`
   width: 100vw;
   height: calc(100vh - 80px);
   object-fit: cover;
+  opacity: 0.3;
+
+  
+
 `
 
 export const SlideContent = styled.div`
@@ -64,20 +91,35 @@ export const SlideContent = styled.div`
   flex-direction: column;
   max-width: 1600px;
   width: calc(100% - 100px);
-  color: #fff;
+  
 
   h1 {
-    font-size: clamp(1rem, 8vw, 6rem);
+    font-size: clamp(1rem, 5vw, 3rem);
     font-weight: 400;
     text-transform: uppercase;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.2);
     text-align: left;
     margin-bottom: 0.8rem;
+    color: #495057;
   }
   p {
     margin-bottom: 1.2rem;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    padding-top: 50px;
+    color: #343A40;
   }
+  ul {
+    padding: 10px 40px;
+    color: #343A40;
+  }
+`
+
+export const ContentDates = styled.h2`
+  font-size: clamp(0.5rem, 2vw, .9rem);
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  color: #EA5D5F;
+  text-transform: uppercase;
+  text-align: left;
 `
 
 export const SlideButtons = styled.div`
@@ -93,7 +135,7 @@ export const arrowButtons = css`
   height: 50px;
   color: #fff;
   cursor: pointer;
-  background: #000d1a;
+  background: #495057;
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;

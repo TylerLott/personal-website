@@ -23,6 +23,10 @@ const Navbar = ({toggle}) => {
         scroll.scrollToTop();
     }
 
+    const toggleBottom = () => {
+        scroll.scrollToBottom();
+    }
+
     return (
         <>
             <Nav scrollNav={scrollNav}>
@@ -32,15 +36,6 @@ const Navbar = ({toggle}) => {
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
-                            <NavLinks to="overview" 
-                            smooth={true} 
-                            duration={500}
-                            spy={true}
-                            exact='true'
-                            offset={-80}
-                            >Overview</NavLinks>
-                        </NavItem>
                         <NavItem>
                             <NavLinks to="skills"
                             smooth={true} 
@@ -91,7 +86,10 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/contact'>Contact</NavBtnLink>
+                        {/* For React router - use if decide to make contact page */}
+                        {/* <NavBtnLink to='/contact'>Contact</NavBtnLink> */}
+                        {/* <NavBtnLink href="mailto:tylerlott0126@gmail.com" onClick={toggleBottom}>Contact</NavBtnLink> */}
+                        <NavBtnLink onClick={toggleBottom}>Contact</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

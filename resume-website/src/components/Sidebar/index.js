@@ -1,7 +1,13 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements'
+import {animateScroll as scroll} from 'react-scroll';
 
 const Sidebar = ({isOpen, toggle}) => {
+
+  const toggleBottom = () => {
+    scroll.scrollToBottom();
+  }
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -9,30 +15,57 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="overview" onClick={toggle}>
-            Overview
-          </SidebarLink>
-          <SidebarLink to="skills" onClick={toggle}>
+          <SidebarLink to="skills" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Skills
           </SidebarLink>
-          <SidebarLink to="experience" onClick={toggle}>
+          <SidebarLink to="experience" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Experience
           </SidebarLink>
-          <SidebarLink to="education" onClick={toggle}>
+          <SidebarLink to="education" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Education
           </SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>
+          <SidebarLink to="projects" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Projects
           </SidebarLink>
-          <SidebarLink to="achievements" onClick={toggle}>
+          <SidebarLink to="achievements" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Achievements
           </SidebarLink>
-          <SidebarLink to="publications" onClick={toggle}>
+          <SidebarLink to="publications" 
+          smooth={true} 
+          duration={500}
+          spy={true}
+          exact='true'
+          offset={-80} onClick={toggle}>
             Publications
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contact">Contact</SidebarRoute>
+          <SidebarRoute onClick={toggleBottom}>Contact</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Carousel from '../components/Carousel'
 import Footer from '../components/Footer'
+import InfoSection from '../components/InfoSection'
 import Overview from '../components/Overview'
-import Image1 from '../images/Image1.svg'
-import Image2 from '../images/Image2.svg'
+// import Image1 from '../images/Image1.svg'
+// import Image2 from '../images/Image2.svg'
 import resumeData from './resumeData'
 
 function Home() {
@@ -12,12 +13,12 @@ function Home() {
   return (
     <>
       <Overview />
-      <Carousel slides={resumeData.skills}/>
+      <InfoSection info={resumeData.skills}/>
       <Carousel slides={resumeData.experience}/>
       <Carousel slides={resumeData.education}/>
       <Carousel slides={resumeData.projects}/>
-      <Carousel slides={resumeData.achievements}/>
-      <Carousel slides={resumeData.publications}/>
+      <InfoSection info={resumeData.achievements}/>
+      <InfoSection info={resumeData.publications}/>
       <Footer />
     </>
   )
