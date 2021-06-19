@@ -78,10 +78,9 @@ export const SlideImage = styled.img`
   width: 100vw;
   height: calc(100vh - 80px);
   object-fit: cover;
-  opacity: 0.3;
-
-  
-
+  opacity: ${({isVisible}) => (isVisible ? '0.2' : '0')};
+  transition: 1.5s ease all;
+  z-index: 1;
 `
 
 export const SlideContent = styled.div`
@@ -129,11 +128,13 @@ export const SlideContent = styled.div`
 `
 
 export const ContentDates = styled.h2`
-  font-size: clamp(0.5rem, 2vw, .9rem);
+  font-size: clamp(0.5rem, 2vw, 1rem);
   text-shadow: 0px 0px 20px rgba(0,0,0,0.2);
   color: #EA5D5F;
   text-transform: uppercase;
   text-align: left;
+  font-weight: 600;
+  letter-spacing: 2px;
 `
 
 export const SlideButtons = styled.div`

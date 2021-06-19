@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import { OverviewContainer, OverviewBg, VideoBg, OverviewContent, OverviewH1, OverviewP } from './OverviewElements'
-import Video from '../../video/video.mp4'
 import FadeInSection from '../FadeIn'
 
 const Overview = ({apiPath}) => {
@@ -24,7 +23,7 @@ const Overview = ({apiPath}) => {
       {isLoading ? <div>Loading...</div> :
         <OverviewContainer id="overview">
           <OverviewBg>
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+            <VideoBg autoPlay loop muted src={'videos/video.mp4'} type='video/mp4' />
           </OverviewBg>
           <OverviewContent>
             <FadeInSection>

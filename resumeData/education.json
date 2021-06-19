@@ -22,8 +22,8 @@
         "info": "GPA: 3.56"
       }
     ],
-    "image": "",
-    "alt": ""
+    "image": "images/UtahState1.jpg",
+    "alt": "USU Campus"
   },
   {
     "id": 2,
@@ -40,7 +40,7 @@
         "info": "GPA: 3.82"
       }
     ],
-    "image": "",
-    "alt": ""
+    "image": "images/BYU1.jpg",
+    "alt": "BYU Campus"
   }
 ]

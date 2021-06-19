@@ -1,7 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import { CarouselSection, CarouselWrapper, CarouselSlide, CarouselSlider, SlideImage, SlideContent, SlideButtons, PrevArrow, NextArrow, CarouselTitleWrapper, CarouselTitle, ContentDates } from './CarouselElements'
 import FadeInSection from '../FadeIn'
-import Image from '../../images/UtahState.jpg'
 
 const Carousel = ({ apiPath }) => {
 
@@ -44,10 +43,9 @@ const Carousel = ({ apiPath }) => {
               {slides.map((slide, index) => {
                 return (
                   <CarouselSlide key={index}>
+                    <SlideImage isVisible={index === current} src={slide.image} alt={slide.alt}/>
                     {index === current && (
                       <CarouselSlider>
-                        {/* <SlideImage src={slide.image} alt={slide.alt}/> */}
-                        <SlideImage src={Image} alt={slide.alt}/>
                         <SlideContent>
                           <FadeInSection>
                             <ContentDates >{slide.startMonth} {slide.startYear} - {slide.endMonth} {slide.endYear}</ContentDates>
