@@ -23,7 +23,17 @@ const Overview = ({apiPath}) => {
       {isLoading ? <div>Loading...</div> :
         <OverviewContainer id="overview">
           <OverviewBg>
-            <VideoBg autoPlay={true} muted={true} loop={true} src={'videos/video.mp4'} type='video/mp4' />
+            <VideoBg dangerouslySetInnerHTML={{ __html: `
+              <video
+                loop
+                muted
+                autoplay
+                playsinline
+                src="videos/video.mp4"
+                type="video/mp4"
+                class="${props.className}"
+              />,
+            ` }} />
           </OverviewBg>
           <OverviewContent>
             <FadeInSection>
