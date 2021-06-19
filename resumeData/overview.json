@@ -1,0 +1,19 @@
+{
+  "name": "Tyler Lott",
+  "title": "Hi, my name is Tyler.",
+  "description": "I want to work for you.",
+  "bullets": [
+    {
+      "id": 1,
+      "info": "US Secret Level Security Clearance"
+    },
+    {
+      "id": 2,
+      "info": "Project Oriented"
+    },
+    {
+      "id": 3,
+      "info": "Organized"
+    }
+  ]
+}

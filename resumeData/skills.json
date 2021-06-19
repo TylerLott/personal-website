@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "type": "skills",
+    "title": "Python",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 2,
+        "info": "Mohr's Circle Generator and 3D Statics Solver"
+      },
+      {
+        "id": 3,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      },
+      {
+        "id": 4,
+        "info": "USGS Salt Water Flow Prediction Using Neural Networks"
+      },
+      {
+        "id": 5,
+        "info": "Fiber Reinforced Composite Strength Prediction Using Neural Networks"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 2,
+    "type": "skills",
+    "title": "AutoCAD",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Off-Grid Tiny Home"
+      },
+      {
+        "id": 2,
+        "info": "CAD Design Teaching Assistant"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 3,
+    "type": "skills",
+    "title": "SolidWorks",
+    "description": "Solidworks Certified User.",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Off-Grid Tiny Home"
+      },
+      {
+        "id": 2,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 3,
+        "info": "Projectile Impact on Thin Plate"
+      },
+      {
+        "id": 4,
+        "info": "Mechanical Engineering Intern - Northrop Grumman"
+      },
+      {
+        "id": 5,
+        "info": "SAE Mini Baja"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 4,
+    "type": "skills",
+    "title": "Siemens NX & Teamcenter",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Mechanical Engineer - Northrop Grumman"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 5,
+    "type": "skills",
+    "title": "SQL",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 2,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 6,
+    "type": "skills",
+    "title": "JavaScript",
+    "description": "JS React and vanilla JS",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 2,
+        "info": "This Website"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 7,
+    "type": "skills",
+    "title": "Java",
+    "description": "I learned Java in one of my Computer Science courses, which taught me the power of strongly typed, object oriented programming.",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 8,
+    "type": "skills",
+    "title": "Raspberry Pi",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      },
+      {
+        "id": 2,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 9,
+    "type": "skills",
+    "title": "Arduino Microcontrollers",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 2,
+        "info": "SAE Mini Baja"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 10,
+    "type": "skills",
+    "title": "Tableau",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 11,
+    "type": "skills",
+    "title": "C and C++",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      },
+      {
+        "id": 2,
+        "info": "Distributed Transient 2D Heat Conduction Finite Elements Solver"
+      },
+      {
+        "id": 3,
+        "info": "SAE Mini Baja"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 12,
+    "type": "skills",
+    "title": "Tensorflow",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "USGS Salt Water Flow Prediction Using Neural Networks"
+      },
+      {
+        "id": 2,
+        "info": "Fiber Reinforced Composite Strength Prediction Using Neural Networks"
+      },
+      {
+        "id": 3,
+        "info": "Riiid Answer Correctness Prediction"
+      },
+      {
+        "id": 4,
+        "info": "2020 Presidential Campaign Data Pipeline and Analysis"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 13,
+    "type": "skills",
+    "title": "MPI Parallel Programming",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Distributed Transient 2D Heat Conduction Finite Elements Solver"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  },
+  {
+    "id": 14,
+    "type": "skills",
+    "title": "ANSYS",
+    "description": "",
+    "listTitle": "Projects where Utilized",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Off-Grid Tiny Home"
+      },
+      {
+        "id": 2,
+        "info": "Projectile Impact on Thin Plate"
+      },
+      {
+        "id": 3,
+        "info": "L3Harris Self-Leveling Antenna Platform"
+      }
+    ],
+    "image": "none",
+    "alt": "none"
+  }
+]

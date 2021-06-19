@@ -89,6 +89,7 @@ export const SlideContent = styled.div`
   z-index: 10;
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
   max-width: 1600px;
   width: calc(100% - 100px);
   
@@ -106,11 +107,24 @@ export const SlideContent = styled.div`
     margin-bottom: 1.2rem;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.2);
     padding-top: 50px;
+    font-size: clamp(0.6rem, 3vw, 2rem);
     color: #343A40;
   }
   ul {
     padding: 10px 40px;
+    font-size: clamp(0.6rem, 2vw, 1.75rem);
     color: #343A40;
+  }
+
+  @media screen and (max-width: 700px){
+    width: 100%;
+    padding-top: 0;
+    ul{
+      padding-left: 0;
+    }
+    p{
+      padding-top: 20px;
+    }
   }
 `
 

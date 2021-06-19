@@ -1,0 +1,164 @@
+[
+  {
+    "id":1,
+    "type": "experience",
+    "organization": "Northrop Grumman",
+    "title": "Associate Mechanical Engineer",
+    "description": "Mechanical Engineer supporting the GSSC contract out of Roy, Utah and Hill AFB.",
+    "startMonth": "Apr",
+    "startYear": "2021",
+    "endMonth": "Present",
+    "endYear": "",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Creating documentation for previously undocumented changes to legacy systems"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id":2,
+    "type": "experience",
+    "organization": "Northrop Grumman",
+    "title": "Mechanical Engineer Intern",
+    "description": "Mechanical Engineering Intern supporting the GSSC contract out of Roy, Utah and Hill AFB.",
+    "startMonth": "Apr",
+    "startYear": "2020",
+    "endMonth": "Apr",
+    "endYear": "2021",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Ground systems and compliance engineering for United States Minuteman III nuclear missile system"
+      },
+      {
+        "id": 2,
+        "info": "Reworking models and drawings that are not in compliance with technical requirements"
+      },
+      {
+        "id": 3,
+        "info": "Creating documentation for previously undocumented changes to legacy systems"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id":3,
+    "type": "experience",
+    "organization": "Utah State University",
+    "title": "Undergraduate Research Scholar",
+    "description": "Research with Professor Som Dutta at Utah State University. Awarded Engineering Undergraduate Research Program funding.",
+    "startMonth": "Dec",
+    "startYear": "2019",
+    "endMonth": "Present",
+    "endYear": "",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Analyzing mechanics of nanofiber composite materials using machine learning"
+      },
+      {
+        "id": 2,
+        "info": "Developed and implemented a machine learning neural network to analyze imaging data of samples"
+      },
+      {
+        "id": 3,
+        "info": "Used Python to create and process large datasets for use in neural network training"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id":4,
+    "type": "experience",
+    "organization": "Utah State University",
+    "title": "CAD Design Teaching Assistant",
+    "description": "Lab inctructor for the AutoCAD course at Utah State University.",
+    "startMonth": "Jan",
+    "startYear": "2018",
+    "endMonth": "Apr",
+    "endYear": "2020",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Designed and implemented course structure when transitioning departments from engineering education to civil engineering"
+      },
+      {
+        "id": 2,
+        "info": "Instructed multiple labs of 30 students drafting and design principles resulting in student mastery of design principles"
+      },
+      {
+        "id": 3,
+        "info": "Introduced students to CAD software that they will be using in their careers as engineers (AutoCAD, Revit, Civil3D)"
+      },
+      {
+        "id": 4,
+        "info": "Recorded over 8 hours of course lectures and created over 10 course assignments and "
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id":5,
+    "type": "experience",
+    "organization": "Walmart",
+    "title": "Customer Service Manager",
+    "description": "Front-end Customer Service Manager at Walmart in Logan, Utah. This was a full time position.",
+    "startMonth": "Jan",
+    "startYear": "2018",
+    "endMonth": "Oct",
+    "endYear": "2019",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Worked in a team of 6 managers to lead a team of over 30 front end employees"
+      },
+      {
+        "id": 2,
+        "info": "Oversaw all financial transactions including check cashing and money transfer services"
+      },
+      {
+        "id": 3,
+        "info": "Developed 3 step accountability program and documentation for employees "
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id":5,
+    "type": "experience",
+    "organization": "Brigham Young University",
+    "title": "Physics Teaching Assistant",
+    "description": "Lab instructor for first year physics students.",
+    "startMonth": "Jan",
+    "startYear": "2017",
+    "endMonth": "May",
+    "endYear": "2017",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Instructed 25 students in an active lab environment resulting in mastery of fundamental physics skills"
+      },
+      {
+        "id": 2,
+        "info": "Modeled real life phenomena with equations giving students strong visualization of physics concepts"
+      },
+      {
+        "id": 3,
+        "info": "Taught teamwork and group problem solving preparing students for future group work"
+      },
+      {
+        "id": 4,
+        "info": "Designed and improved lab procedures resulting in more efficient and structured labs"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  }
+]

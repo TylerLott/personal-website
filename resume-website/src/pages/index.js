@@ -9,16 +9,15 @@ import resumeData from './resumeData'
 
 function Home() {
 
-
   return (
     <>
-      <Overview />
-      <InfoSection info={resumeData.skills}/>
-      <Carousel slides={resumeData.experience}/>
-      <Carousel slides={resumeData.education}/>
-      <Carousel slides={resumeData.projects}/>
-      <InfoSection info={resumeData.achievements}/>
-      <InfoSection info={resumeData.publications}/>
+      <Overview apiPath={'/api/overview'}/>
+      <InfoSection apiPath={'/api/skills'}/>
+      <Carousel apiPath={'/api/experience'}/>
+      <Carousel apiPath={'/api/education'}/>
+      <Carousel apiPath={'/api/projects'}/>
+      <InfoSection apiPath={'/api/achievements'}/>
+      <InfoSection apiPath={'/api/publications'}/>
       <Footer />
     </>
   )

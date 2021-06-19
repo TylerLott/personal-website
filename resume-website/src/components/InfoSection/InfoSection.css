@@ -1,7 +1,7 @@
 .row {
   width: 100%;
   max-width: 1400px;
-  padding-top: 4rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -12,6 +12,8 @@
 @media only screen and (max-width: 700px) {
   .nav-col.col{
     max-width: 40%;
+    padding-left: 0;
+    margin-left: 0;
   }
   .row {
     width: 110%;
@@ -24,8 +26,8 @@
 }
 
 .nav-item {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .nav-link:hover {
@@ -34,7 +36,7 @@
 
 .nav-link {
   color: #fff;
-  font-size: clamp(0.7rem, 2vw, 1rem);
+  font-size: clamp(0.45rem, 2vw, 1rem);
   text-transform: uppercase;
 }
 

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "type": "education",
+    "title": "Utah State University",
+    "description": "Bachelor of Science in Mechanical Engineering",
+    "startMonth": "Aug",
+    "startYear": "2017",
+    "endMonth": "Apr",
+    "endYear": "2021",
+    "bullets":[
+      {
+        "id": 1,
+        "info": "Minors: Computer Science, Chemistry"
+      },
+      {
+        "id": 2,
+        "info": "Institutional Honors: Cum Laude"
+      },
+      {
+        "id": 3,
+        "info": "GPA: 3.56"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  },
+  {
+    "id": 2,
+    "type": "education",
+    "title": "Brigham Young University",
+    "description": "Completed one year, after which I decided to transfer.",
+    "startMonth": "Aug",
+    "startYear": "2016",
+    "endMonth": "Apr",
+    "endYear": "2017",
+    "bullets":[
+      {
+        "id": 1,
+        "info": "GPA: 3.82"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  }
+]

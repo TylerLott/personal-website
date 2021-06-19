@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "type": "projects",
+    "title": "L3Harris Self-Leveling Antenna Platform",
+    "description": "Senior Capstone Design project sponsored by L3Harris. The goal of the design was to create a mobile system to attach to legacy communication antenna and allow for automatic leveling to a certain tolerance.",
+    "startMonth": "Aug",
+    "startYear": "2020",
+    "endMonth": "Apr",
+    "endYear": "2021",
+    "bullets": [
+      {
+        "id": 1,
+        "info": "Designed 3 platform system to level legacy tripod antenna communication systems"
+      }
+    ],
+    "image": "",
+    "alt": ""
+  }
+]
