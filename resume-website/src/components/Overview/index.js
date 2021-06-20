@@ -28,6 +28,7 @@ const Overview = ({apiPath}) => {
                 loop
                 muted
                 autoplay
+                playsinline
                 src="videos/video.mp4"
                 type="video/mp4"
               />
