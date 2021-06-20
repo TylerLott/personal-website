@@ -30,7 +30,7 @@ const Overview = ({apiPath}) => {
                 autoplay
                 src="videos/video.mp4"
                 type="video/mp4"
-              />,
+              />
             ` }} />
           </OverviewBg>
           <OverviewContent>
