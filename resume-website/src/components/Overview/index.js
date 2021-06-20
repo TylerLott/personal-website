@@ -25,6 +25,7 @@ const Overview = ({apiPath}) => {
           <OverviewBg>
             <VideoBg dangerouslySetInnerHTML={{ __html: `
               <video
+                class="bg-video"
                 loop
                 muted
                 autoplay
