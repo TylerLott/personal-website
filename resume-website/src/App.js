@@ -1,11 +1,10 @@
 import './App.css';
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages';
 import ContactPage from './pages/contact'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
-import ReactGa from 'react-ga'
 
 function App() {
 
@@ -14,11 +13,6 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen)
   }
-
-  useEffect(() => {
-    ReactGa.initialize('G-BM0X0Y2EXL')
-    ReactGa.pageview('/')
-  }, [])
 
   return (
     <Router className="App">
