@@ -1,6 +1,6 @@
 .fade-in-section {
   opacity: 0;
-  transform: translateY(6vh);
+  transform: translateY(2vh);
   visibility: hidden;
   transition: opacity 500ms ease-out, transform 300ms ease-out,
     visibility 500ms ease-out;
