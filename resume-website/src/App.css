@@ -12,3 +12,14 @@
   object-fit: cover;
   background: #232a34;
 }
+
+.loading {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: calc(100vh - 80px);
+  position: relative;
+  z-index: 1;
+}

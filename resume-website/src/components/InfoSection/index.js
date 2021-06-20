@@ -24,7 +24,7 @@ const InfoSection = ({ apiPath }) => {
 
   return (
     <div>
-      {isLoading ? <div>Loading... </div> : 
+      {isLoading ? <div className="loading">Loading... </div> : 
       <InfoContainer id={info[0].type}>
           <InfoBg>
             <FadeInSection><h1>{info[0].type}</h1></FadeInSection>

@@ -20,7 +20,7 @@ const Overview = ({apiPath}) => {
 
   return (
     <div>
-      {isLoading ? <div>Loading...</div> :
+      {isLoading ? <div className="loading">Loading...</div> :
         <OverviewContainer id="overview">
           <OverviewBg>
             <VideoBg dangerouslySetInnerHTML={{ __html: `

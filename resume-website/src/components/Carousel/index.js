@@ -32,7 +32,7 @@ const Carousel = ({ apiPath }) => {
 
   return (
     <div>
-      {isLoading ? <div>Loading...</div> :
+      {isLoading ? <div className="loading">Loading...</div> :
         <CarouselSection id={slides[0].type}>
             <CarouselTitleWrapper>
               <FadeInSection>
